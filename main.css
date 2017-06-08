@@ -36,19 +36,20 @@ a:active {
 }
 
 .nav-bar {
-	margin: 1rem 1rem;
-    max-width: 30%;
+	padding: .7rem;
+	margin: 0;
+    max-width: 40%;
    	float: right;
-   	text-align: right;
    	position: fixed;
    	top: 1rem;
    	right: 1rem;
-   	background-color: white;
+   	background-color: rgba(255, 255, 255, 0.9);
    	list-style: none;
 }
 
 .nav-bar li {
 	display: inline-block;
+	padding: .3rem;
 }
 
 img {
