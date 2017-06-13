@@ -7,6 +7,16 @@ body {
 	background-attachment: fixed;*/
 }
 
+h4 {
+	margin: 0;
+	padding: 0;
+}
+
+h5 {
+	margin: 0;
+	padding-top: 0.5rem;
+}
+
 a {
 	color: grey;
 	text-decoration: none;
@@ -65,7 +75,15 @@ a:active {
 	padding: 0;
 	width: auto;
 	height: 12rem;
-	border: 5px solid #fff;
+	border: 3px solid lightgrey;
+}
+
+.image {
+	display: inline-block;
+	width: auto;
+	height: 10rem;
+	border-radius: 6.5rem;
+	border: 5px solid lightgrey;
 }
 
 .heading {
