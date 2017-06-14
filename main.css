@@ -2,34 +2,31 @@ body {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	color: grey;
 	background-color: rgba(113, 213, 232, 0.1);
-	/*background-image: url("art/dreamer.jpg");
+/*	background-image: url("art/sunset.jpg");
 	background-size: cover;
 	background-attachment: fixed;*/
-}
-
-h4 {
-	margin: 0;
-	padding: 0;
-}
-
-h5 {
-	margin: 0;
-	padding-top: 0.5rem;
 }
 
 a {
 	color: grey;
 	text-decoration: none;
 	text-align: right;
+	border-radius: 1rem;
+	padding: 0.3rem;
 }
 
 a:link {
 	color: grey;
 }
 
+.heading a:hover, .footer a:hover {
+	color: lightgrey;
+}
+
 /* mouse over link */
-a:hover {
-	color: darkgrey;
+.nav-bar a:hover {
+	color: white;
+	background-color: lightgrey;
 }	
 
 /* selected link */
@@ -40,12 +37,11 @@ a:active {
 .header {
 	display: inline-block;
 	width: 100%;
-	height: 100%;/*
-	border-bottom: 2px solid lightblue;*/
+	height: 100%;
 }
 
 .nav-bar {
-	padding: .7rem;
+	padding: 0.5rem;
 	margin: 0;
     max-width: 40%;
    	float: right;
@@ -53,8 +49,7 @@ a:active {
    	top: 1rem;
    	right: 1rem;
    	background-color: rgba(255, 255, 255, 0.9);
-/*   	border-left: 2px solid lightblue;
-   	border-bottom: 2px solid lightblue;*/
+   	/*border: 2px solid lightgrey;*/
    	border-radius: 1rem;
    	list-style: none;
    	z-index: 1;
@@ -62,7 +57,12 @@ a:active {
 
 .nav-bar li {
 	display: inline-block;
-	padding: .3rem;
+/*	padding: .3rem;*/
+}
+
+.experience h4, h5, h6 {
+	margin: 0;
+	padding-top: 0.5rem;
 }
 
 .art {
@@ -75,7 +75,7 @@ a:active {
 	padding: 0;
 	width: auto;
 	height: 12rem;
-	border: 3px solid lightgrey;
+	/*border: 3px solid lightgrey;*/
 }
 
 .image {
@@ -83,7 +83,7 @@ a:active {
 	width: auto;
 	height: 10rem;
 	border-radius: 6.5rem;
-	border: 5px solid lightgrey;
+	/*border: 5px solid lightgrey;*/
 }
 
 .heading {
@@ -100,10 +100,10 @@ a:active {
 	display: inline-block;
 	margin-bottom: 7rem;
 	background-color: rgba(255, 255, 255, .9);
-/*	border-left: 2px solid lightblue;
-   	border-bottom: 2px solid lightblue;*/
+	/*border: 2px solid lightgrey;*/
 	border-radius: 1rem;
 	position: absolute;
+	top: 5rem;
 	left: 5%;
 	right: 5%;
 }
@@ -120,8 +120,8 @@ a:active {
 	right: 1rem;
 	background-color: rgba(255, 255, 255, 0.9);
 	height: 5rem;
-	border-radius: 1rem;
-/*	border-top: 2px solid lightblue;*/
+	border-radius: 1rem;/*
+	border: 2px solid lightgrey;*/
 }
 
 .footer h1 {
