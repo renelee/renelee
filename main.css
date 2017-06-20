@@ -1,10 +1,13 @@
+html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
 body {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	color: grey;
 	background-color: rgba(113, 213, 232, 0.1);
-/*	background-image: url("art/sunset.jpg");
-	background-size: cover;
-	background-attachment: fixed;*/
 }
 
 a {
@@ -17,6 +20,14 @@ a {
 
 a:link {
 	color: grey;
+}
+
+.container {
+	display: inline-block;
+  	width: 100%;
+  	min-height: 100%;
+  	margin: 0 auto;
+  	max-width: 100%;
 }
 
 .heading a:hover, .footer a:hover {
@@ -34,10 +45,10 @@ a:active {
 	color: darkgrey;
 }
 
-.header {
-	display: inline-block;
-	width: 100%;
-	height: 100%;
+.heading {
+	margin: 1rem 1rem;
+    width: 70%;
+    float: left;
 }
 
 .nav-bar {
@@ -96,7 +107,6 @@ a:active {
 	padding: 0;
 	width: auto;
 	height: 12rem;
-	/*border: 3px solid lightgrey;*/
 }
 
 .image {
@@ -104,55 +114,52 @@ a:active {
 	width: auto;
 	height: 10rem;
 	border-radius: 6.5rem;
-	/*border: 5px solid lightgrey;*/
-}
-
-.heading {
-	margin: 1rem 1rem;
-    width: 70%;
-    float: left;
 }
 
 .content {
-	width: all;
-	margin-left: 1rem;
-	margin-right: 1rem;
-	padding: 1rem;
-	display: inline-block;
-	margin-bottom: 7rem;
-	background-color: rgba(255, 255, 255, .9);
-	border-radius: 1rem;
-	position: absolute;
-	top: 5rem;
-	left: 5%;
-	right: 5%;
+    width: all;
+    display: inline-block;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    background-color: rgba(255, 255, 255, .9);
+    border-radius: 1rem;
+    position: absolute;
+    top: 5rem;
+    left: 5%;
+    right: 5%;
 }
 
 .content h1 {
 	font-size: 1.5rem;
 }
 
-.footer {
-	padding: 0 1rem;
-	position: fixed;
-	bottom: 1rem;
-	left: 1rem;
-	right: 1rem;
-	background-color: rgba(255, 255, 255, 0.9);
-	height: 5rem;
-	border-radius: 1rem;
-	border-top: 2px solid lightgrey;
+/*.footer {
+    padding: 0 1rem;
+    position: fixed;
+    bottom: 1rem;
+    left: 1rem;
+    right: 1rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 5rem;
+    border-radius: 1rem;
+    border-top: 2px solid lightgrey;
 }
 
 .footer h1 {
 	font-size: 1.2rem;
+}*/
+
+.contact {
+	margin: 0;
+	padding: 1rem;
+	border-radius: 1rem;
 }
 
-.footer ul {
+.contact ul {
 	list-style-type: none;
 }
 
-.footer li {
+.contact li {
 	display: inline;
 	padding: 1rem;
 }
