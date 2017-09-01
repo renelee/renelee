@@ -76,6 +76,10 @@ a:active {
 	max-width: 20rem;
 }
 
+.about {
+	max-width: 50rem;
+}
+
 .skills {
 	list-style: none;
 }
@@ -86,6 +90,10 @@ a:active {
 	margin: 0.5rem;
 	border-radius: 1rem;
 	background-color: rgba(113, 213, 232, 0.1);
+}
+
+.subheader {
+	padding-top: 2rem;
 }
 
 .experience h4, h5, h6, .project h4 {
@@ -99,6 +107,10 @@ a:active {
 
 .project p {
 	margin-left: 2rem;
+}
+
+.gallery-intro {
+	text-align: center;
 }
 
 .art {
